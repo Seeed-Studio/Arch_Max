@@ -19,3 +19,7 @@ It has 1 MB Flash and 192 KB RAM, Ethernet interface, USB OTG interface and SD c
     + SWD debug with GDB+ pyOCD/OpenOCD, Keil or IAR
 + Arduino form factor, compatible with lots of shields
 + Build-in Ethernet, USB and SD card slot for connectivity and data exchange
+
+## Resource
++ [Using pyOCD with Seeed Arch Max](https://github.com/Seeed-Studio/Arch_Max/wiki/Using-pyOCD-with-Seeed-Arch-Max)
++ [Get Started with EmBitz and Seeed Arch Max](https://github.com/Seeed-Studio/Arch_Max/wiki/Get-Started-with-EmBitz-and-Seeed-Arch-Max)
