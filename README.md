@@ -20,6 +20,11 @@ It has 1 MB Flash and 192 KB RAM, Ethernet interface, USB OTG interface and SD c
 + Arduino form factor, compatible with lots of shields
 + Build-in Ethernet, USB and SD card slot for connectivity and data exchange
 
+## Download app with OpenOCD
+```
+openocd -f arch_max.cfg -c "init; rest halt; program your_app.elf; reset run; exit"
+```
+
 ## Resource
 + [Using pyOCD with Seeed Arch Max](https://github.com/Seeed-Studio/Arch_Max/wiki/Using-pyOCD-with-Seeed-Arch-Max)
 + [Get Started with EmBitz and Seeed Arch Max](https://github.com/Seeed-Studio/Arch_Max/wiki/Get-Started-with-EmBitz-and-Seeed-Arch-Max)
