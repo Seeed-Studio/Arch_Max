@@ -22,7 +22,7 @@ It has 1 MB Flash and 192 KB RAM, Ethernet interface, USB OTG interface and SD c
 
 ## Download app with OpenOCD
 ```
-openocd -f arch_max.cfg -c "init; rest halt; program your_app.elf; reset run; exit"
+openocd -f arch_max.cfg -c "init; reset halt; program your_app.elf; reset run; exit"
 ```
 
 ## Resource
